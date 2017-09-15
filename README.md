@@ -136,6 +136,8 @@ uavstack是UAVStack的All in One源代码仓库。uavstack采用了扁平化的m
 
 ## AllInOne开发演示版
 * [Windows64位](http://pan.baidu.com/s/1boA9p75)
+* [Mac](http://pan.baidu.com/s/1i5uyAyT)
+* [Linux](http://pan.baidu.com/s/1qYr21m0)
 
 
 
