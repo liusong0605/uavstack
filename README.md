@@ -140,7 +140,7 @@ uavstack是UAVStack的All in One源代码仓库。uavstack采用了扁平化的m
 注：开发演示版的健康管理服务(HM)仅适合开发环境，演示环境，小规模测试环境。生产环境推荐使用<a href="https://uavorg.github.io/main/uavdoc_deploydocs/healmanagerInstall/healmanagerInstall/microservice.html" target="_blank">分布式部署</a>
 * [Windows64位](http://pan.baidu.com/s/1boA9p75)
 * [Mac](http://pan.baidu.com/s/1i5uyAyT)
-* [Linux(CentOS)](http://pan.baidu.com/s/1qYr21m0)
+* [Linux(CentOS)](#)(coming soon)
 
 
 
