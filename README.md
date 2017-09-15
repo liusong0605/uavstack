@@ -5,7 +5,7 @@ UAVStack是由宜信技术研发中心推出的智能化服务技术栈，是研
 目前UAVStack开源系列 ( 官方网站：https://uavorg.github.io/main/ ) 包括
 ![Uavstack开源系列](https://uavorg.github.io/main/index/img/support/openSource.png)
 # 工程说明
-uavstack是UAVStack的All in One源代码仓库。
+uavstack是UAVStack的All in One源代码仓库。uavstack采用了扁平化的maven结构。每个交付安装包都是由*.buildComponent打包完成。这个做法使得技术栈本身是完全源代码依赖，同时也可以分别交付安装包。
 
 ## 根POM
 * com.creditease.uav.superpom  根POM，包含依赖管理，Build所需plugins等
@@ -25,9 +25,9 @@ uavstack是UAVStack的All in One源代码仓库。
 * com.creditease.uav.ttl             com.alibaba.ttl源代码引入
 * com.creditease.uav.monitorframework.buildFat        WAR测试程序
 * com.creditease.uav.monitorframework.springbootFat   SpringBoot测试程序
-* com.creditease.uav.agent.buildComponent             制作监控代理程序部署包
-* com.creditease.uav.healthmanager.buildComponent     制作健康管理程序部署包
-* com.creditease.uav.monitorframework.buildComponent  制作探针MOF部署包
+* **com.creditease.uav.agent.buildComponent**             制作监控代理程序部署包
+* **com.creditease.uav.healthmanager.buildComponent**     制作健康管理程序部署包
+* **com.creditease.uav.monitorframework.buildComponent**  制作探针MOF部署包
 
 ## UAV.APM
 * com.creditease.uav.collect          APM归集客户端/服务端
@@ -53,7 +53,7 @@ uavstack是UAVStack的All in One源代码仓库。
 
 ## UAV.AppHub
 * com.creditease.uav.console           UAVStack交互前端，包括Monitor，APM等前端交互功能
-* com.creditease.uav.console.buildComponent    制作AppHub部署包
+* **com.creditease.uav.console.buildComponent**    制作AppHub部署包
 
 ## UAV.ServiceGovern
 * 服务自动注册包含与探针MOF代码中
