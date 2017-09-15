@@ -62,6 +62,8 @@ uavstack是UAVStack的All in One源代码仓库。uavstack采用了扁平化的m
 * 服务授权（代码整理中，陆续更新...）
 
 # 如何构建
+如果构建中遇到有因为依赖包不能下载的情况，可下载这个参考[Maven本地仓库](http://pan.baidu.com/s/1eRBPyEI)，该仓库是我们测试过可以完成build的本地库，需要修改maven的settings.xml指向这个仓库或将仓库的所有内容拷贝到正在使用的本地仓库
+
 1. build com.creditease.uav.superpom
 > cd com.creditease.uav.superpom
 
@@ -135,9 +137,10 @@ uavstack是UAVStack的All in One源代码仓库。uavstack采用了扁平化的m
 * [rocket.war](http://pan.baidu.com/s/1pKCmJ3P)
 
 ## AllInOne开发演示版
+注：开发演示版的健康管理服务(HM)仅适合开发环境，演示环境，小规模测试环境。生产环境推荐使用<a href="https://uavorg.github.io/main/uavdoc_deploydocs/healmanagerInstall/healmanagerInstall/microservice.html" target="_blank">分布式部署</a>
 * [Windows64位](http://pan.baidu.com/s/1boA9p75)
 * [Mac](http://pan.baidu.com/s/1i5uyAyT)
-* [Linux](http://pan.baidu.com/s/1qYr21m0)
+* [Linux(CentOS)](http://pan.baidu.com/s/1qYr21m0)
 
 
 
